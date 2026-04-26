@@ -4,7 +4,6 @@
       "NODE_VERSION": "18.x"
     }
   },
-  "output": "static",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
