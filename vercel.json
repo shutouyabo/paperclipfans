@@ -4,7 +4,15 @@
       "NODE_VERSION": "18"
     }
   },
+  "functions": {
+    "app/**/*.{js,ts,vue}": {
+      "runtime": "@vercel/node@3"
+    }
+  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
